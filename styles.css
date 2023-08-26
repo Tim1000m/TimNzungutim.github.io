@@ -16,8 +16,12 @@ nav{
   backgroung-color: #696969;
   
 }
-ul{
+ul: hover{
+  background-color: #A9A9A9;
+}
+ul: hover{
   background-color: #696969;
+  
   
   
 }
