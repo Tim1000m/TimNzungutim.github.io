@@ -7,7 +7,7 @@ body{
 }
 
 nav ul{
-  backgroung-color: #696969;
+  background-color: #696969;
   
 }
 nav{
@@ -16,14 +16,8 @@ nav{
   backgroung-color: #696969;
   
 }
-ul: hover{
-  background-color: #A9A9A9;
-}
-ul: hover{
-  background-color: #696969;
-  
-  
-  
+ul li:hover {
+  background-color: #a9a9a9;
 }
 ul li{
   list-style: none;
