@@ -1,5 +1,5 @@
 body{
-  background-color: lightgrey;
+  background-color: #FFF8F0;
 }
 *{
   padding: 0;
@@ -37,4 +37,9 @@ ul li a{
   padding: 0 20px;
   color: #1e1e1e;
   
+}
+.columnss{
+  columns: 250px 3;
+  column-rule: 1px dotted #ccc;
+  column-gap: 3em;
 }
