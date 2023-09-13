@@ -43,3 +43,19 @@ ul li a{
   column-rule: 1px dotted #ccc;
   column-gap: 3em;
 }
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set a height to center vertically */
+}
+
+.content{
+  text-allign: center;
+  margin-bottom: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
