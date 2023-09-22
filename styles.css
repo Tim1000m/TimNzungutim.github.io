@@ -63,9 +63,13 @@ ul li a{
 .container{
   width: 80%;
   height: 600px;
-  padding: 20px;µ
+  padding: 20px;
   color: white;
   position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 
 .table{
   background: grey;
