@@ -39,6 +39,9 @@ ul li a{
   color: #1e1e1e;
   
 }
+img{
+      border-radius: 10%;
+    }
 .columnss{
   columns: 250px 3;
   column-rule: 1px dotted #ccc;
