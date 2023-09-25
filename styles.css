@@ -66,4 +66,11 @@ img{
   margin-left: 300px;
   margin-right: 300px;
 }
+.hidden{
+  opacity: 0;
+  transition: all 1s;
+}
 
+.show{
+  opacity: 1;
+}
