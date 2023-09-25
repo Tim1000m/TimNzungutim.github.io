@@ -42,6 +42,8 @@ ul li a{
 }
 img{
       border-radius: 10%;
+      width: 10%;
+      height: 10%;
     }
 .columnss{
   columns: 250px 3;
