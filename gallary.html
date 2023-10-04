@@ -1,21 +1,81 @@
 <!doctype html>
-<html lang = "en">
+<html lang="en">
   <head>
-    <meta charset= "utf-8">
-    <link rel= "stylesheet" type="text/css" href= "styles.css">
-    <title>"gallary"</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Gallery</title>
+
+    <script >
+        function getQuote(){
+            quotes = new Array(4);
+            sources = new Array(4);
+
+            // Initialize the arrays with quotes
+            quotes[0] = "To lose patience is to lose the battle.";
+            sources[0] = "Mahatma Gandhi";
+
+            quotes[1] = "Patience is bitter, but its fruit is sweet.";
+            sources[1] = "Jean-Jacques Rousseau";
+
+            quotes[2] = "Knowing trees, I understand the meaning of patience. Knowing grass, I can appreciate persistence.";
+            sources[2] = "Hal Borland";
+
+            quotes[3] = "Have patience with all things but first of all with yourself";
+            sources[3] = "Steven Wright";
+
+            quotes[4] = "Patience is the road to wisdom.";
+            sources[4] = "Kao Kalia Yang";
+
+            quotes[5] = "Maybe that's why life is so precious. No rewind or fast forward... just patience and faith.";
+            sources[5] = "Cristina Marrero";
+
+            quotes[6] = "Two things define you: your patience when you have nothing and your attitude when you have everything.";
+            sources[6] = "George Bernard Shaw";
+
+            quotes[7] = "It does not matter how slowly you go as long as you do not stop.";
+            sources[7] = "Conficius";
+
+            quotes[8] = "Patience is the best remedy for every trouble.";
+            sources[8] = "Plautus";
+
+            quotes[9] = "I have just three things to teach simplicity, patience, compassion. These three are your greatest treasures.";
+            sources[9] = "Lao Tzu";
+
+            quotes[10] = "With love and patience, nothing is impossible.";
+            sources[10] = "Daisaku Ikeda";
+
+            quotes[11] = "Patience is when you're supposed to get mad, but you choose to understand.";
+            sources[11] = "Anonymous";
+
+            quotes[12] = "Be patient and tough; Someday this pain will be useful to you.";
+            sources[12] = "Ovid";
+
+       
+
+            // Get a random index into the arrays
+            i = Math.floor(Math.random() * quotes.length);
+
+            // Write out the quote as HTML
+            document.write("<dl style='background-color: lightpink'>\n");
+            document.write("<dt>" + "<em>" + quotes[i] + "</em>\n");
+            document.write("<dd>" + "- " + sources[i] + "\n");
+            document.write("</dl>\n");
+        }
+    </script>
   </head>
-  <nav>
-    <ul>
-      <li><a href = "home.html">Home</a></li>
-      <li><a href = "book.html">Book</a></li>
-      <li><a href = "gallary">Gallary</a></li>
-      <li><a href = "Contact.html">Contact me</a></li>
-      <li><a href = "Documentation.html">Documentation</a></li>
-    </ul>
-</nav>
-  
   <body>
-    <p> Working on it</p>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="book.html">Book</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Contact.html">Contact me</a></li>
+        <li><a href="Documentation.html">Documentation</a></li>
+      </ul>
+    </nav>
+    <p>Refresh the page to see another quote</p>
+    <script >
+        getQuote();
+    </script>
   </body>
 </html>
